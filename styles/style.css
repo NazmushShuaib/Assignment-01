@@ -1,46 +1,89 @@
-body{
-    font-family:"Fira Sans", serif;
-   padding-right: 160px;
-   padding-left: 160px;
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+
 }
 
-nav{display: flex;
-justify-content: space-between;
+
+
+
+body {
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
 }
-nav h3{
-font-size: 32px;
-font-weight: 700;
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
-nav ul li{
+
+/* navstart */
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
+nav h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav ul li {
     list-style: none;
 }
-li .btn{
-    color:#006A50 ;
+
+li .btn {
+    color: #006A50;
     border: 1px solid#006A50;
     border-radius: 4px;
     height: 52px;
     width: 116px;
 }
 
-.banner{
-    width: 622px;
-    height: 326px;
+/* navend */
+
+/* bannerstart */
+
+.banner-body {
+
+    padding-bottom: 80px;
 }
-.banner-heading{
+
+.banner {
+    padding: 100px 80px 100px 80px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+
+}
+
+.banner-heading {
     color: rgba(14, 14, 14, 0.5);
- font-weight: 500;
- font-size: 24px;
- margin-bottom:0;
- padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-bottom: 16px;
 }
-.banner-content{
+
+.banner-pera {
     color: rgb(14, 14, 14);
-font-size: 56px;
-font-weight:bold;
-margin-top: 0;
-margin-bottom:0;
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.btn-2{
+
+.btn-2 {
     margin-top: 24px;
     width: 270px;
     height: 56px;
@@ -49,5 +92,16 @@ margin-bottom:0;
     background: #006A50;
     color: white;
     font-size: 18px;
-    font-weight:600;
+    font-weight: 600;
 }
+
+.btn-2:hover {
+
+    cursor: pointer;
+}
+
+.img {
+    float: left;
+}
+
+/* bannerend */
