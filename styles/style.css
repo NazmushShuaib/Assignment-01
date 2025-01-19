@@ -124,23 +124,25 @@ li .btn {
     padding-bottom: 32px;
     font-size: 16px;
 }
-.item-1 img{
+
+.item-1 img {
 
     width: 64px;
     height: 64px;
 }
 
-.item-2 img{
+.item-2 img {
 
     width: 64px;
     height: 64px;
 }
 
-.item-3 img{
+.item-3 img {
 
     width: 64px;
     height: 64px;
 }
+
 .item-1 {
     background: rgba(84, 144, 245, 0.2);
     padding: 32px;
@@ -163,6 +165,7 @@ li .btn {
     font-size: 16px;
     font-weight: 400;
 }
+
 .item-1 button {
     border: none;
     background-color: #5490F5;
@@ -170,6 +173,7 @@ li .btn {
     height: 41px;
     border-radius: 8px;
 }
+
 .item-1 button:hover {
 
     cursor: pointer;
@@ -189,6 +193,7 @@ li .btn {
     font-size: 20px;
     font-weight: bold;
 }
+
 .item-2 p {
     padding-bottom: 49px;
     font-size: 16px;
@@ -224,6 +229,7 @@ li .btn {
     font-size: 20px;
     font-weight: bold;
 }
+
 .item-3 p {
     font-size: 16px;
     font-weight: 400;
@@ -231,6 +237,7 @@ li .btn {
     line-height: 24px;
 
 }
+
 .item-3 button {
     border: none;
     background-color: #FFC239;
@@ -272,3 +279,119 @@ li .btn {
 .designation {}
 
 /* speech part end  */
+
+
+/* table part start  */
+
+
+.oheading {
+
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.tparent {
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+
+
+
+}
+
+table tbody td {
+    border: 3px solid rgb(219, 219, 219);
+    padding: 24px;
+
+
+
+}
+
+table thead {
+
+    height: 72px;
+
+    background-color: #C6E4D6;
+
+    border: 3px solid rgb(219, 219, 219);
+
+}
+
+table thead td {
+
+    padding: 24px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+table tbody td {
+
+    height: 92px;
+}
+
+/* Table part end  */
+
+/* recent news start  */
+.recentnews h1 {
+
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.recentnews p {
+
+    font-size: 16px;
+}
+
+.recentnews-image {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.recentnews-image .image-1 img {
+
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+
+}
+
+.recentnews-text h3 {
+    padding-bottom: 12px;
+}
+
+.recentnews-text .date {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.recentnews-text button {
+
+    margin-top: 24px;
+    width: 139px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #006A50;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* recent news end  */
