@@ -105,3 +105,139 @@ li .btn {
 }
 
 /* bannerend */
+
+.keypoint {
+    display: flex;
+    gap: 24px;
+}
+
+.heading {
+    padding-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vpragraph {
+
+    padding-bottom: 32px;
+    font-size: 16px;
+}
+.item-1 img{
+
+    width: 64px;
+    height: 64px;
+}
+
+.item-2 img{
+
+    width: 64px;
+    height: 64px;
+}
+
+.item-3 img{
+
+    width: 64px;
+    height: 64px;
+}
+.item-1 {
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+}
+
+.item-1 h5 {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+
+}
+
+.item-1 p {
+    padding-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.item-1 button {
+    border: none;
+    background-color: #5490F5;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+}
+.item-1 button:hover {
+
+    cursor: pointer;
+}
+
+.item-2 {
+    background: rgb(198, 228, 214);
+    padding: 32px;
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+}
+
+.item-2 h5 {
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-2 p {
+    padding-bottom: 49px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.item-2 button {
+    border: none;
+    background-color: #09A15C;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+}
+
+.item-2 button:hover {
+
+    cursor: pointer;
+}
+
+
+
+.item-3 {
+    background: rgb(247, 235, 207);
+    padding: 24px;
+    width: 410.67px;
+    height: 325px;
+    border-radius: 16px;
+}
+
+.item-3 h5 {
+    padding-top: 24px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.item-3 p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 65px;
+    line-height: 24px;
+
+}
+.item-3 button {
+    border: none;
+    background-color: #FFC239;
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+}
+
+.item-3 button:hover {
+
+    cursor: pointer;
+}
