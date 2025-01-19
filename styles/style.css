@@ -395,3 +395,69 @@ table tbody td {
 }
 
 /* recent news end  */
+
+/* donate box start  */
+.donatebox {
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.donatebox h3 {
+
+    margin-bottom: 24px;
+}
+
+.donatebox p {
+
+    margin-bottom: 32px;
+}
+
+.donatebox input {
+
+    margin-top: 32px;
+    width: 1032px;
+    height: 64px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: #fff;
+    text-align: center;
+}
+
+.donatebox input ::placeholder {
+
+    padding: 40px 20px 40px 20px;
+}
+
+.hover-content {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.hover-item {
+    width: 240px;
+    height: 128px;
+    border: none;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    display: inline block;
+
+
+
+}
+
+.hover-item:hover {
+
+    background-color: #C6E4D6;
+
+}
+
+/* donate box end  */
