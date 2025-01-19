@@ -461,3 +461,67 @@ table tbody td {
 }
 
 /* donate box end  */
+
+/* subscribed for news letter part start */
+
+.newsletter {
+    border-radius: 24px;
+    background: #C6E4D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .newsletter h2 {} */
+
+.newsletter p {
+    max-width: 622px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.email-box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.email-box input {
+    width: 600px;
+    height: 56px;
+    border-radius: 8px 0 0 8px;
+    border: none;
+    background: white;
+    box-shadow: none;
+    outline: none;
+}
+
+.email-box button {
+    width: 150px;
+    height: 56px;
+    border: none;
+    background: #006A50;
+    border-radius: 0 8px 8px 0;
+}
+
+.newsletter h2 {
+    padding-top: 80px;
+    padding-bottom: 16px;
+}
+
+.newsletter p {
+    padding-bottom: 24px;
+}
+
+.pragraph-2 {
+    padding-top: 24px;
+}
+
+input::placeholder {
+    padding-left: 40px;
+}
+
+
+/* subscribed for news letter part end  */
