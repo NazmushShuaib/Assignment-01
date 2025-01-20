@@ -46,7 +46,10 @@ li .btn {
     height: 52px;
     width: 116px;
 }
+ .btn:hover{
 
+    cursor: KD;
+ }
 /* navend */
 
 /* bannerstart */
@@ -143,15 +146,25 @@ li .btn {
     height: 64px;
 }
 
-.item-1 {
-    background: rgba(84, 144, 245, 0.2);
+.keypointItem{
+
+    display: flex;
+
+    flex-direction: column;
+
     padding: 32px;
-    width: 410.67px;
     height: 325px;
     border-radius: 16px;
+    width: 100%;
+    
+
+}
+.item-1 {
+    background: rgba(84, 144, 245, 0.2);
+  
 }
 
-.item-1 h5 {
+.keypointItem h5 {
     padding-top: 24px;
     padding-bottom: 12px;
     font-size: 20px;
@@ -160,96 +173,57 @@ li .btn {
 
 }
 
-.item-1 p {
-    padding-bottom: 24px;
+.keypointItem p {
+   margin-bottom: auto;
     font-size: 16px;
     font-weight: 400;
 }
 
-.item-1 button {
+.keypointItem button {
     border: none;
     background-color: #5490F5;
     width: 122px;
     height: 41px;
     border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
 }
 
-.item-1 button:hover {
+.keypointItem button:hover {
 
-    cursor: pointer;
+    opacity: 0.75;
+   
 }
 
 .item-2 {
     background: rgb(198, 228, 214);
-    padding: 32px;
-    width: 410.67px;
-    height: 325px;
-    border-radius: 16px;
+    
 }
 
-.item-2 h5 {
-    padding-top: 24px;
-    padding-bottom: 12px;
-    font-size: 20px;
-    font-weight: bold;
-}
 
-.item-2 p {
-    padding-bottom: 49px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
+
+
 
 .item-2 button {
-    border: none;
+    
     background-color: #09A15C;
-    width: 122px;
-    height: 41px;
-    border-radius: 8px;
-}
-
-.item-2 button:hover {
-
-    cursor: pointer;
+    
 }
 
 
 
 .item-3 {
     background: rgb(247, 235, 207);
-    padding: 24px;
-    width: 410.67px;
-    height: 325px;
-    border-radius: 16px;
+    
 }
 
-.item-3 h5 {
-    padding-top: 24px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.item-3 p {
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 65px;
-    line-height: 24px;
-
-}
 
 .item-3 button {
-    border: none;
+    
     background-color: #FFC239;
-    width: 122px;
-    height: 41px;
-    border-radius: 8px;
+    
 }
 
-.item-3 button:hover {
-
-    cursor: pointer;
-}
 
 /* vision of future start end  */
 
@@ -257,18 +231,20 @@ li .btn {
 
 .speech-content {
     background-color: white;
-    padding: 24px 48px 24px 48px;
+    padding: 48px 24px ;
     margin-top: 32px;
     border-radius: 12px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 30px;
+    background-size: 64px 64px;
 }
 
 .speech {
-    background-image: url(../assets/quote-bg.png);
+    
 
     margin-bottom: 12px;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 64px 64px;
+   
 
 }
 
@@ -276,7 +252,7 @@ li .btn {
     margin-bottom: 4px;
 }
 
-.designation {}
+/* .designation {} */
 
 /* speech part end  */
 
@@ -337,7 +313,19 @@ table tbody td {
 
     height: 92px;
 }
+table body td select option{
 
+    width: 152px;
+    height: 44px;
+}
+
+.selector{
+width: 152px;
+height: 44px;
+background-color:rgba(9, 161, 92, 0.15);
+border-radius: 4px;
+
+}
 /* Table part end  */
 
 /* recent news start  */
@@ -393,6 +381,9 @@ table tbody td {
     font-size: 18px;
     font-weight: 600;
 }
+.read-more:hover{
+    cursor: pointer;
+}
 
 /* recent news end  */
 
@@ -442,13 +433,17 @@ table tbody td {
 }
 
 .hover-item {
-    width: 240px;
+    width: 252px;
     height: 128px;
     border: none;
     border-radius: 10px;
     background: #fff;
     padding: 20px;
-    display: inline block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
 
 
 
@@ -489,13 +484,14 @@ table tbody td {
 }
 
 .email-box input {
-    width: 600px;
+    width: 560px;
     height: 56px;
     border-radius: 8px 0 0 8px;
     border: none;
     background: white;
     box-shadow: none;
     outline: none;
+    padding-left: 40px;
 }
 
 .email-box button {
@@ -519,9 +515,6 @@ table tbody td {
     padding-top: 24px;
 }
 
-input::placeholder {
-    padding-left: 40px;
-}
 
 
 /* subscribed for news letter part end  */
